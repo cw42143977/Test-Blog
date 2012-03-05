@@ -52,6 +52,9 @@ content {
     margin: 20px 0;
     img {
       float: left;
+      &:hover {
+        opacity: 0.9;
+      }
     }
     a {
       text-decoration: none;
@@ -62,7 +65,7 @@ content {
     }
     h1 {
       padding-left: 60px;
-      padding-top: 10px;
+      padding-top: 5px;
     }
     h4 {
       padding-left: 60px;

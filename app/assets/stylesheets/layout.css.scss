@@ -52,6 +52,9 @@ content {
     margin: 20px 0;
     img {
       float: left;
+      &:hover {
+        opacity: 0.8;
+      }
     }
     a {
       text-decoration: none;

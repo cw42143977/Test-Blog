@@ -15,7 +15,7 @@ module PagesHelper
     if curr_page.empty?
       "Craigs Blog"
     else
-      "#{curr_page} Page"
+      "#{curr_page}"
     end
   end
 
