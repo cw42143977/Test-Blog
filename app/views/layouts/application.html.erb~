@@ -7,9 +7,11 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
-  <h1><%= full_heading yield(:title) %></h1>
-
-<%= yield %>
-
+  <%= render 'layouts/header' %>
+  <div class="mainbox">
+    <%= render 'layouts/content' %>
+  </div>
+  </div>
+  </div>
 </body>
 </html>

@@ -1,0 +1,15 @@
+<content>
+  <div class="topbox">
+    <% logo = image_tag 'rails.png' %>
+    <%= link_to logo, root_path %>
+    <h1><%= link_to "cw42143977", root_path %></h1>
+    <h4>A Noobs Tale</h4>
+  </div>
+  <div class="leftbox">
+    <h1><%= full_heading yield(:title) %></h1>
+    <%= yield %>
+  </div>
+  <div class="rightbox">
+    This is some stuff just to fill in the box and show how wide it really goes
+  </div>
+</content>
