@@ -9,7 +9,7 @@
 <body>
   <h1><%= full_heading yield(:title) %></h1>
 
-  <%= yield %>
+<%= yield %>
 
 </body>
 </html>

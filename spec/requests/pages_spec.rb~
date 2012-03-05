@@ -5,7 +5,6 @@ describe 'Pages' do
   subject { page }
 
   describe 'Home Page' do
-
     before { visit root_path }
 
     it { should have_selector('title', text: full_title('Home')) }
@@ -14,7 +13,6 @@ describe 'Pages' do
   end
 
   describe 'About Page' do
-
     before { visit about_path }
 
     it { should have_selector('title', text: full_title('About')) }
@@ -23,7 +21,6 @@ describe 'Pages' do
   end
 
   describe 'Contact Page' do
-
     before { visit contact_path }
 
     it { should have_selector('title', text: full_title('Contact')) }
@@ -32,7 +29,6 @@ describe 'Pages' do
   end
 
   describe 'Help Page' do
-
     before { visit help_path }
 
     it { should have_selector('title', text: full_title('Help')) }
