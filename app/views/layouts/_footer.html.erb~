@@ -1,0 +1,3 @@
+<footer>
+  <p>Powered by <%= link_to 'Heroku', href: 'http://www.heroku.com' %></p>
+</footer>

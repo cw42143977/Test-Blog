@@ -14,10 +14,15 @@ group :test, :development do
   gem 'spork-rails'
 end
 
+group :development do
+  gem 'annotate', '~> 2.4.1.beta'
+end
+
 group :test do
   gem 'capybara'
   gem 'rb-fsevent', :require => false
   gem 'growl'
+  gem 'factory_girl_rails', '1.4.0'
 end
 
 # Gems used only for assets and not required
@@ -35,7 +40,7 @@ end
 gem 'jquery-rails'
 
 # To use ActiveModel has_secure_password
-# gem 'bcrypt-ruby', '~> 3.0.0'
+gem 'bcrypt-ruby', '~> 3.0.1'
 
 # To use Jbuilder templates for JSON
 # gem 'jbuilder'

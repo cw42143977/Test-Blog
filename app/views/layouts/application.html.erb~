@@ -8,7 +8,7 @@
 </head>
 <body>
   <%= render 'layouts/header' %>
-  <div class="mainbox">
+  <div class="container">
     <%= render 'layouts/content' %>
   </div>
   </div>

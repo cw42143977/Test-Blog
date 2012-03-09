@@ -23,5 +23,7 @@ def nav_links
   it { should have_link('About',    href: about_path) }
   it { should have_link('Contact',  href: contact_path) }
   it { should have_link('Help',     href: help_path) }
+  it { should have_link('Sign in',  href: '#') }
+  it { should have_link('Heroku',   href: 'http://www.heroku.com') }
 
 end
