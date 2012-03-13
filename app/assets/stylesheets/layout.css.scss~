@@ -128,6 +128,7 @@ footer {
   }
   a {
     color: $colour_text;
+    text-decoration: none;
     padding: 0;
     &:hover {
       color: $colour_top;
@@ -146,5 +147,34 @@ nav {
         }
       }
     }
+  }
+}
+
+.field {
+  td {
+    text-align: right;
+    padding: 5px;
+    border-radius: 10px;
+  }
+}
+
+.field_with_errors {
+  display: table;
+  padding: 1px;
+  background: pink;
+}
+
+#error_explanation { 
+  width: 400px;
+  background-color: #f0f0f0;
+  border: 2px solid red;
+  h2 { 
+    font-weight: bold;
+    font-size: 18px;
+    background: red;
+    margin-bottom: 5px;
+  }
+  ul {
+    padding-left: 20px;
   }
 }

@@ -4,23 +4,23 @@
   <table class="field">
     <tr>
       <td><%= f.label :name %></td>
-      <td><%= f.text_field :name %></td>
+      <td class="error"><%= f.text_field :name %></td>
     </tr>
     <tr>
       <td><%= f.label :username %></td>
-      <td><%= f.text_field :username %></td>
+      <td class="error"><%= f.text_field :username %></td>
     </tr>
     <tr>
       <td><%= f.label :email %></td>
-      <td><%= f.text_field :email %></td>
+      <td class="error"><%= f.text_field :email %></td>
     </tr>
     <tr>
       <td><%= f.label :password %></td>
-      <td><%= f.password_field :password %></td>
+      <td class="error"><%= f.password_field :password %></td>
     </tr>
     <tr>
       <td><%= f.label :password_confirmation, "Confirmation" %></td>
-      <td><%= f.password_field :password_confirmation %></td>
+      <td class="error"><%= f.password_field :password_confirmation %></td>
     </tr>
     <tr>
       <td></td>

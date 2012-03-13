@@ -5,9 +5,11 @@
     <h1><%= link_to "cw42143977", root_path %></h1>
     <h4>A Noobs Tale</h4>
   </div>
-  <%= render 'layouts/pagelist' %>
   <div class="leftbox">
     <h1><%= full_heading yield(:title) %></h1>
+    <% flash.each do | key, value | %>
+      <div class="flash <%= key %>"><%= value %> </div>
+    <% end %>
     <%= yield %>
   </div>
   <div class="rightbox">

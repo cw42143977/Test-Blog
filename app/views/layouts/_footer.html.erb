@@ -1,3 +1,4 @@
 <footer>
   <p>Powered by <%= link_to 'Heroku', 'http://www.heroku.com' %></p>
+    <%= debug(params) if Rails.env.development? %>
 </footer>

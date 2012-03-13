@@ -6,6 +6,9 @@
     <h4>A Noobs Tale</h4>
   </div>
   <div class="leftbox">
+    <% flash.each do | key, value | %>
+      <div class="flash <%= key %>"><%= value %> </div>
+    <% end %>
     <h1><%= full_heading yield(:title) %></h1>
     <%= yield %>
   </div>

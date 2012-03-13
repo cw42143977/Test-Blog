@@ -12,6 +12,9 @@
 #
 
 class User < ActiveRecord::Base
+  extend FriendlyId
+
+  friendly_id :username
 
   attr_accessible :name, :username, :email, :password, :password_confirmation
   has_secure_password

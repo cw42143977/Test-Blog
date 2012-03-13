@@ -58,6 +58,7 @@ GEM
       factory_girl (~> 2.3.0)
       railties (>= 3.0.0)
     ffi (1.0.11)
+    friendly_id (4.0.2)
     growl (1.0.3)
     guard (1.0.1)
       ffi (>= 0.5.0)
@@ -80,7 +81,7 @@ GEM
       treetop (~> 1.4.8)
     mime-types (1.17.2)
     multi_json (1.1.0)
-    nokogiri (1.5.0)
+    nokogiri (1.5.2)
     pg (0.13.2)
     polyglot (0.3.3)
     rack (1.4.1)
@@ -162,6 +163,7 @@ DEPENDENCIES
   capybara
   coffee-rails (~> 3.2.1)
   factory_girl_rails (= 1.4.0)
+  friendly_id (~> 4.0.1)
   growl
   guard-rspec
   guard-spork

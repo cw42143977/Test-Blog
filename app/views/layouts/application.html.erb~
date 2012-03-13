@@ -10,8 +10,10 @@
   <%= render 'layouts/header' %>
   <div class="container">
     <%= render 'layouts/content' %>
-  </div>
-  </div>
+    <% flash.each do | key, value | %>
+      <div class="flash <%= key %>"><%= value %> </div>
+    <% end %>
+    <%= render 'layouts/footer' %>
   </div>
 </body>
 </html>

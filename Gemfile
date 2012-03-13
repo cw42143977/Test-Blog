@@ -7,6 +7,8 @@ gem 'rails', '3.2.1'
 
 gem 'pg'
 
+gem 'friendly_id', '~> 4.0.1'
+
 group :test, :development do
   gem 'rspec-rails'
   gem 'guard-rspec'
